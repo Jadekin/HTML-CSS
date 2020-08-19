@@ -1,0 +1,41 @@
+.indexGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "navbar"
+    "carrousel"
+    "mostpopular"
+    "footer";
+}
+
+.mostpopular {
+  display: grid;
+  grid-area: mostpopular;
+  grid-auto-flow: row;
+  padding: 50px;
+  align-content: center;
+  justify-content: space-evenly;
+
+  h3 {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.price {
+  text-align: center;
+  color: darkblue;
+}

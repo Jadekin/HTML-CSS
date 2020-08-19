@@ -1,0 +1,16 @@
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  min-height: 60px;
+}
+
+.navbar ul {
+  padding: 50px;
+  justify-content: space-evenly;
+  letter-spacing: 4px;
+
+  a:hover {
+    background-color: yellow;
+    opacity: 70%;
+  }
+}

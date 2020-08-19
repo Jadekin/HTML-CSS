@@ -1,0 +1,56 @@
+/* Navigation bar */
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  min-height: 60px;
+}
+
+.navbar ul {
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+/* Body */
+
+body {
+  font-family: Roboto;
+  font-size: 1rem;
+}
+
+/* About us */
+
+.aboutusinfo {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "navbar"
+    "aboutusinfo"
+    "footer";
+}
+
+.aboutusinfo {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  grid-area: aboutusinfo;
+}
+
+/* Tips and care */
+
+.tipsgrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "navbar"
+    "cuidado"
+    "footer";
+}
+
+.cuidado {
+  grid-area: cuidado;
+  padding: 50px;
+}
